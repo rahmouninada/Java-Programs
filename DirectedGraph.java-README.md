@@ -1,0 +1,41 @@
+# Minimum Binary Heap
+
+# METHODS:
+- ADDNODE
+    - in: unique id number of the node (0 or greater), unique string label for name
+    - return: boolean
+        - returns false if node number is not unique, or less than 0
+        - returns false if label is not unique (or is null)
+        - returns true if node is successfully added 
+- ADDEDGE:
+    - in: unique id number for the new edge, 
+        - label of source node,
+        - label of destination node,
+        - weight for new edge (use 1 by default)
+        - label for the new edge (allow null)
+    - return: boolean
+        - false if edge # is not unique or less than 0
+        - false if source node is not in the graph
+        - false if destination node is not in the graph 
+        - false if edge number is not unique or less than 0
+        - false if source node is not in graph
+        - false if destination node is not in graph
+        - false is there already is an edge between these 2 nodes
+        - returns true if edge is successfully added 
+            
+- DELNODE:
+    - in: string (label for the node to remove)
+    - return: boolean
+        - false if node does not exist, true if node is found and successfully removed)
+- DELEDGE:
+    - in: string label for source node, string label for destination node
+    - return: boolean
+        - false if edge does not exist
+        - true if edge is found and successfully removed
+- NUMNODES:
+    - in: nothing
+    - return: integer 0 or greater
+- NUM EDGES:
+    - in: nothing
+    - return: integer 0 or greater
+        - reports how many edges are in the graph
