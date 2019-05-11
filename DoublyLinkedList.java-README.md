@@ -4,7 +4,7 @@
 # |      |   <------>  |      |   <------>  |      |   <------>  |      |
 # |      |             |      |             |      |             |      |
 #  ------               ------               ------               ------
-# B                sentinal                 A                    B
+# B                   sentinal                 A                    B
 
 IMPLEMENTATION:
 - sentinal: head
