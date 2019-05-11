@@ -1,6 +1,9 @@
 # Doubly Linked List
 
 # IMPLEMENTATION:
+- each node:
+    - has a next value pointing to next node in the list
+    - has a previous value pointing to the previous node in the list
 - sentinal: head
     - sentinal is NOT part of data set
     - next value of sentinal is the first value in the list 
