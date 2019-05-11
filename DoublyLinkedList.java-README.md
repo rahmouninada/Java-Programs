@@ -1,17 +1,11 @@
 # Doubly Linked List
 
-# ------               ------               ------               ------
-# |      |   <------>  |      |   <------>  |      |   <------>  |      |
-# |      |             |      |             |      |             |      |
-#  ------               ------               ------               ------
-# B                   sentinal                 A                    B
-
-IMPLEMENTATION:
+# IMPLEMENTATION:
 - sentinal: head
     - previous of sentinal is the last node in the list; next value of last node in list (B) is sentinal
     - sentinal is NOT part of data set
 
-METHODS:
+# # METHODS:
   INSERT
     - in: a double (the data element), and an integer (position index)
     - return: boolean, return true if insert is successful, false otherwise
