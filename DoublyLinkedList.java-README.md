@@ -8,7 +8,7 @@
 - |B| <--> |sentinal| <--> |A| <--> |B|
 
 # METHODS:
-  INSERT
+- INSERT
     - in: a double (the data element), and an integer (position index)
     - return: boolean, return true if insert is successful, false otherwise
     - effect: list state altered so that elt is located at the specified index; the list is size bigger by one;
