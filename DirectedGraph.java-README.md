@@ -35,6 +35,7 @@
 - NUMNODES:
     - in: nothing
     - return: integer 0 or greater
+        - reports how many nodes are in the graph
 - NUM EDGES:
     - in: nothing
     - return: integer 0 or greater
