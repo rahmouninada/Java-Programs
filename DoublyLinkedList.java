@@ -1,5 +1,5 @@
 /* Doubly Linked List Implementation in Java
-* 3 Classes: LinkedListImpl.java, Node.java
+* Classes: LinkedListImpl.java, Node.java
 * Interface: LIST_Interface.java
 */
 
