@@ -1,7 +1,7 @@
 # Minimum Binary Heap
 
 # METHODS:
-- ADDNODE
+- ADDNODE:
     - in: unique id number of the node (0 or greater), unique string label for name
     - return: boolean
         - returns false if node number is not unique, or less than 0
