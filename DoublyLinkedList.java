@@ -34,13 +34,12 @@ public class Node { // Node Object (Objects in list)
 
 /* LINKED LIST CLASS: */
 public class LinkedListImpl implements LIST_Interface {
-    Node sentinel; // this will be the entry point to your linked list (the head)
+    Node sentinel; // entry point to linked list (head)
 
-    public LinkedListImpl() { // Don't modify
-        sentinel = new Node(0); // Note: root's data is not a true part of your data set!
-    }
+    public LinkedListImpl() {
+        sentinel = new Node(0); // Note: root's data NOT a true part of data set
 
-    public Node getRoot() { // Don't modify. Used by the grader to grab your linkedList easily.
+    public Node getRoot() { // used to grab start of linked list easily
         return sentinel;
 	}
 
